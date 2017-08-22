@@ -1,0 +1,10 @@
+C:\Users\jonsi\Desktop\Haskolinn\WEPO\Assignment1\Assignment1\bin\Debug\netcoreapp1.1\Assignment1.deps.json
+C:\Users\jonsi\Desktop\Haskolinn\WEPO\Assignment1\Assignment1\bin\Debug\netcoreapp1.1\Assignment1.runtimeconfig.json
+C:\Users\jonsi\Desktop\Haskolinn\WEPO\Assignment1\Assignment1\bin\Debug\netcoreapp1.1\Assignment1.runtimeconfig.dev.json
+C:\Users\jonsi\Desktop\Haskolinn\WEPO\Assignment1\Assignment1\bin\Debug\netcoreapp1.1\Assignment1.dll
+C:\Users\jonsi\Desktop\Haskolinn\WEPO\Assignment1\Assignment1\bin\Debug\netcoreapp1.1\Assignment1.pdb
+C:\Users\jonsi\Desktop\Haskolinn\WEPO\Assignment1\Assignment1\obj\Debug\netcoreapp1.1\Assignment1.csprojResolveAssemblyReference.cache
+C:\Users\jonsi\Desktop\Haskolinn\WEPO\Assignment1\Assignment1\obj\Debug\netcoreapp1.1\Assignment1.csproj.CoreCompileInputs.cache
+C:\Users\jonsi\Desktop\Haskolinn\WEPO\Assignment1\Assignment1\obj\Debug\netcoreapp1.1\Assignment1.AssemblyInfo.cs
+C:\Users\jonsi\Desktop\Haskolinn\WEPO\Assignment1\Assignment1\obj\Debug\netcoreapp1.1\Assignment1.dll
+C:\Users\jonsi\Desktop\Haskolinn\WEPO\Assignment1\Assignment1\obj\Debug\netcoreapp1.1\Assignment1.pdb
