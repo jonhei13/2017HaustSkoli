@@ -9666,11 +9666,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\jonsi\\Desktop\\Haskolinn\\WEPO\\Assignment1\\Assignment1\\Assignment1.csproj",
+      "projectUniqueName": "C:\\Users\\jonsi\\Desktop\\haskoli\\2017HaustSkoli\\WEPO\\Assignment1\\Assignment1\\Assignment1.csproj",
       "projectName": "Assignment1",
-      "projectPath": "C:\\Users\\jonsi\\Desktop\\Haskolinn\\WEPO\\Assignment1\\Assignment1\\Assignment1.csproj",
+      "projectPath": "C:\\Users\\jonsi\\Desktop\\haskoli\\2017HaustSkoli\\WEPO\\Assignment1\\Assignment1\\Assignment1.csproj",
       "packagesPath": "C:\\Users\\jonsi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jonsi\\Desktop\\Haskolinn\\WEPO\\Assignment1\\Assignment1\\obj\\",
+      "outputPath": "C:\\Users\\jonsi\\Desktop\\haskoli\\2017HaustSkoli\\WEPO\\Assignment1\\Assignment1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jonsi\\AppData\\Roaming\\NuGet\\NuGet.Config",

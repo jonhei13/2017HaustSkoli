@@ -6,8 +6,6 @@ using Assignment1.Models;
 
 namespace Assignment1.Controllers
 {
-
-  //  [Route("api/[controller]")]
     public class CoursesController : Controller
     {
         private static List<Course> _courses;
@@ -78,11 +76,10 @@ namespace Assignment1.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
         [Route("api/courses/create")]
         public IActionResult CreateCourse([FromBody] Course Item)
         {
-            if (Item == null)
+            if (!ModelState.IsValid)
             {
                 return BadRequest();
             }

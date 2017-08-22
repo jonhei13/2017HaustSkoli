@@ -13,7 +13,7 @@ namespace Assignment1.Models
         [Required]
         public String TemplateID { get; set; }
         [Required]
-        public int ID { get; set; }
+        public int ID { get; set; } 
         [Required]
         public DateTime StartDate { get; set; }
         [Required]
