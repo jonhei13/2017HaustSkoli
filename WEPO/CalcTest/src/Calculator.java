@@ -18,11 +18,31 @@ public class Calculator {
      * returns a the results in double format.
      * (+, -, /, *.)
      */
+
+
     private Double calculate(ArrayList<String> operators, ArrayList<Double> numbers){
+        double result = 0.0;
+        String operator = "";
+        for (int i = numbers.size();  i > numbers.size(); i--)
+        {
+            double x = 0.0;
+            double y = 0.0;
+            operator = operators.remove(operators.size()-1);
+            if (operator.equals("+")){
+                
+            }
+            else if(operator.equals("-"))
+            {
+
+            }
+
+
+        }
 
 
         return 0.0;
     }
+
     // Returns list of operators in String[]
     private ArrayList<String> GetOperators(String[] expression){
         ArrayList<String> result = new ArrayList<>();
