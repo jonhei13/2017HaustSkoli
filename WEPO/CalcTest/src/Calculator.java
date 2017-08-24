@@ -2,9 +2,6 @@
   *  @(#) Hello.java 1.8 23 Aug 2017 Jon Heidar Sigmundsson
   *  Copyright(c) Jon Heidar Sigmundsson.
  */
-
-import com.sun.org.apache.bcel.internal.generic.ARRAYLENGTH;
-
 import java.util.ArrayList;
 
 /**
@@ -14,33 +11,73 @@ import java.util.ArrayList;
 public class Calculator {
 
     /**
-     * takes string array and calculates the numbers.
-     * returns a the results in double format.
-     * (+, -, /, *.)
+     * Takes list of operators and list of numbers.
+     * calculates  the results and returns.
      */
-
-
     private Double calculate(ArrayList<String> operators, ArrayList<Double> numbers){
         double result = 0.0;
         String operator = "";
-        for (int i = numbers.size();  i > numbers.size(); i--)
+        boolean firstOccurance = true;
+
+        double x = 0.0;
+        double y = numbers.get(numbers.size()-1);
+        numbers.remove(numbers.get(numbers.size()-1));
+        for (int i = numbers.size();  i > 0; i--)
         {
-            double x = 0.0;
-            double y = 0.0;
+            x = numbers.get(numbers.size()-1);
+            numbers.remove(numbers.get(numbers.size()-1));
+            operator = operators.get(operators.size()-1);
             operator = operators.remove(operators.size()-1);
-            if (operator.equals("+")){
-                
+            if (operator.equals("+"))
+            {
+                if (firstOccurance)
+                {
+                    result = x + y;
+                    firstOccurance = false;
+                }
+                else
+                {
+                    result += x;
+                }
             }
             else if(operator.equals("-"))
             {
-
+                if (firstOccurance)
+                {
+                    result = x - y;
+                    firstOccurance = false;
+                }
+                else
+                {
+                    result -= x;
+                }
             }
-
-
+            else if (operator.equals("/"))
+            {
+                if (firstOccurance)
+                {
+                    result = x / y;
+                    firstOccurance = false;
+                }
+                else
+                {
+                    result /= x;
+                }
+            }
+            else if (operator.equals("*"))
+            {
+                if (firstOccurance)
+                {
+                    result = x * y;
+                    firstOccurance = false;
+                }
+                else
+                {
+                    result *= x;
+                }
+            }
         }
-
-
-        return 0.0;
+        return result;
     }
 
     // Returns list of operators in String[]
@@ -67,12 +104,12 @@ public class Calculator {
     /**
      * Takes in string array and calculates the numbers together
      * with (+,-,/,*) operators.
-     * of format "2,3,4,5,+" where last is the expression.
+     * of format "1,2,3,4,+,*,+".
      */
     public double evalRPN(String[] exp){
         ArrayList<String> operators = GetOperators(exp);
         ArrayList<Double> numbers = GetNumbers(exp);
-        if (operators.size() >= numbers.size())
+        if (operators.size() <= numbers.size())
         {
             return calculate(operators, numbers);
         }

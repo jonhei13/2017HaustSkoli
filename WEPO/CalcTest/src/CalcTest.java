@@ -4,7 +4,7 @@ public class CalcTest
     {
         Calculator calc = new Calculator();
 
-        String[] exp =  { "4", "6", "5","5","*","+","/" };
+        String[] exp =  { "1", "2","/" };
         System.out.println(calc.evalRPN(exp));
 
     }
