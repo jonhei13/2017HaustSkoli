@@ -76,7 +76,7 @@ namespace Assignment1.Controllers
         }
 
         [HttpPost]
-        [Route("api/courses/create")]
+        [Route("api/courses")]
         public IActionResult CreateCourse([FromBody] Course Item)
         {
             if (!ModelState.IsValid)
@@ -88,7 +88,7 @@ namespace Assignment1.Controllers
         }
 
         [HttpPut]
-        [Route("api/courses/{courseId}/update")]
+        [Route("api/courses/{courseId}")]
         public IActionResult UpdateCourse(int courseId, [FromBody] Course Item)
         {
             var result = _courses.Where(x => x.ID == courseId).SingleOrDefault();
@@ -108,20 +108,21 @@ namespace Assignment1.Controllers
 
 
         [HttpDelete]
-        [Route("api/courses/{CourseId}/delete")]
+        [Route("api/courses/{CourseId}")]
         public IActionResult DeleteCourse(int CourseId)
         {
             var remove = _courses.Where(x => x.ID == CourseId).SingleOrDefault();
             if (remove == null)
             {
-                return NotFound();
+                return NotFound("Invalid Id");
             }
             _courses.Remove(remove);
             return NoContent();
         }
 
-        [Route("api/courses/{CourseId}/add-student")]
+        
         [HttpPost]
+        [Route("api/courses/{CourseId}")]
         public IActionResult AddStudent(int CourseId, [FromBody] Student student)
         {
             var result = _courses.Where(x => x.ID == CourseId).SingleOrDefault();
@@ -133,8 +134,9 @@ namespace Assignment1.Controllers
             return Created("student", student);
         }
 
-        [Route("api/courses/{CourseId}/students")]
+        
         [HttpGet]
+
         public IActionResult GetStudentsInCourse(int CourseID)
         {
             var result = _courses.Where(x => x.ID == CourseID).SingleOrDefault();

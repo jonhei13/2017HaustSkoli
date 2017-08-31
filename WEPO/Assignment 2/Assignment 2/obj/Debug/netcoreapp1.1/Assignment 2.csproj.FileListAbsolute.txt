@@ -1,0 +1,5 @@
+C:\Users\jonsi\Desktop\Haskolin\2017HaustSkoli\WEPO\Assignment 2\Assignment 2\bin\Debug\netcoreapp1.1\Assignment 2.deps.json
+C:\Users\jonsi\Desktop\Haskolin\2017HaustSkoli\WEPO\Assignment 2\Assignment 2\bin\Debug\netcoreapp1.1\Assignment 2.runtimeconfig.json
+C:\Users\jonsi\Desktop\Haskolin\2017HaustSkoli\WEPO\Assignment 2\Assignment 2\bin\Debug\netcoreapp1.1\Assignment 2.runtimeconfig.dev.json
+C:\Users\jonsi\Desktop\Haskolin\2017HaustSkoli\WEPO\Assignment 2\Assignment 2\obj\Debug\netcoreapp1.1\Assignment 2.csprojResolveAssemblyReference.cache
+C:\Users\jonsi\Desktop\Haskolin\2017HaustSkoli\WEPO\Assignment 2\Assignment 2\obj\Debug\netcoreapp1.1\Assignment 2.AssemblyInfo.cs
