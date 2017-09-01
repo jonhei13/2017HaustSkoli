@@ -9666,11 +9666,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\jonsi\\Desktop\\haskoli\\2017HaustSkoli\\WEPO\\Assignment1\\Assignment1\\Assignment1.csproj",
+      "projectUniqueName": "C:\\Users\\jonsi\\Desktop\\Haskolin\\2017HaustSkoli\\WEPO\\Assignment1\\Assignment1\\Assignment1.csproj",
       "projectName": "Assignment1",
-      "projectPath": "C:\\Users\\jonsi\\Desktop\\haskoli\\2017HaustSkoli\\WEPO\\Assignment1\\Assignment1\\Assignment1.csproj",
+      "projectPath": "C:\\Users\\jonsi\\Desktop\\Haskolin\\2017HaustSkoli\\WEPO\\Assignment1\\Assignment1\\Assignment1.csproj",
       "packagesPath": "C:\\Users\\jonsi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jonsi\\Desktop\\haskoli\\2017HaustSkoli\\WEPO\\Assignment1\\Assignment1\\obj\\",
+      "outputPath": "C:\\Users\\jonsi\\Desktop\\Haskolin\\2017HaustSkoli\\WEPO\\Assignment1\\Assignment1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jonsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9681,12 +9681,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {
