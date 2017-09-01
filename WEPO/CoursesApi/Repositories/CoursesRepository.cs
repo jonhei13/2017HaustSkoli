@@ -18,9 +18,9 @@ namespace CoursesApi.Repositories
             var courses = (from c in _db.Courses 
                             select new CourseDTO{
                                 Name = c.name,
-                                Semester = c.Semester,
-                                NumberOfStudents = (from a in _db.CourseNStudent 
-                                                    where a.CourseName == c.name && a.Semester == c.Semester
+                                NumberOfStudents = (from a in _db.Students
+                                                    join s in _db.CourseNStudent on a.id equals s.StudentId
+                                                    where c.name == s.CourseName
                                                     select a).Count()
                             }).ToList();
         
@@ -29,14 +29,14 @@ namespace CoursesApi.Repositories
         public CourseDetailsDTO GetCourseDetails(int id)
         {
             var courses = (from c in _db.Courses
-                            where c.id == id
+                            join b in _db.CourseNStudent on c.CourseID equals b.CourseName
                             select new CourseDetailsDTO{
                                 name = c.name,
-                                StartDate = c.StartDate,
-                                EndDate = c.EndDate,
+                                StartDate = b.StartDate,
+                                EndDate = b.EndDate,
                                 Students = (from a in _db.CourseNStudent
                                             join s in _db.Students on a.StudentId equals s.id
-                                            where c.name == a.CourseName && a.Semester == c.Semester
+                                            where c.name == a.CourseName
                                             select new StudentViewModel
                                             {
                                                 Name = s.Name,

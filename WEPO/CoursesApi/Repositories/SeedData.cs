@@ -38,9 +38,9 @@ namespace CoursesApi.Repositories
 
                 var courses = new CourseTemplate[]
                 {
-                    new CourseTemplate{id = 1,CourseID = "T-514-VEFT", name = "Web services", Semester = 20173, StartDate = DateTime.Parse("2017-04-01"), EndDate = DateTime.Parse("2018-02-12")},
-                    new CourseTemplate{id = 2,CourseID = "T-514-VEFT", name = "Web services", Semester = 20163, StartDate = DateTime.Parse("2016-04-01"), EndDate = DateTime.Parse("2017-02-12")}, 
-                    new CourseTemplate{id = 3,CourseID = "T-111-PROG", name = "Programming", Semester = 20173, StartDate = DateTime.Parse("2017-04-01"), EndDate = DateTime.Parse("2018-02-12")}
+                    new CourseTemplate{CourseID = "T-514-VEFT", name = "Web services"},
+                    new CourseTemplate{CourseID = "T-514-VEFT", name = "Web services"}, 
+                    new CourseTemplate{CourseID = "T-111-PROG", name = "Programming"}
                 };
                 foreach (CourseTemplate c in courses)
                 {
@@ -50,11 +50,11 @@ namespace CoursesApi.Repositories
 
                 var  studentIncourses = new CourseNStudent[]
                 {
-                    new CourseNStudent{id = 1, CourseName = "Web services",  StudentId =  1, Semester = 20163},
-                    new CourseNStudent{id = 2, CourseName = "Programming",   StudentId =  1, Semester = 20173},
-                    new CourseNStudent{id = 3, CourseName = "Web services",  StudentId =  2, Semester = 20163},
-                    new CourseNStudent{id = 4, CourseName = "Web services",  StudentId =  1, Semester = 20163},
-                    new CourseNStudent{id = 5, CourseName = "Web services",  StudentId =  3, Semester = 20163}
+                    new CourseNStudent{id = 1, CourseName = "Web services",  StudentId =  1, Semester = 20173, StartDate = DateTime.Parse("2017-04-01"), EndDate = DateTime.Parse("2018-02-12")},
+                    new CourseNStudent{id = 2, CourseName = "Programming",   StudentId =  1, Semester = 20173, StartDate = DateTime.Parse("2017-04-01"), EndDate = DateTime.Parse("2018-02-12")},
+                    new CourseNStudent{id = 3, CourseName = "Web services",  StudentId =  2, Semester = 20163, StartDate = DateTime.Parse("2016-04-01"), EndDate = DateTime.Parse("2017-02-12")},
+                    new CourseNStudent{id = 4, CourseName = "Web services",  StudentId =  1, Semester = 20163, StartDate = DateTime.Parse("2016-04-01"), EndDate = DateTime.Parse("2017-02-12")},
+                    new CourseNStudent{id = 5, CourseName = "Web services",  StudentId =  3, Semester = 20163, StartDate = DateTime.Parse("2016-04-01"), EndDate = DateTime.Parse("2017-02-12")}
 
                 };
                 foreach (CourseNStudent c in studentIncourses)

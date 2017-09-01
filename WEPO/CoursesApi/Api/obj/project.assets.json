@@ -7600,7 +7600,7 @@
       ]
     },
     "Remotion.Linq/2.1.1": {
-      "sha512": "IJn0BqkvwEDpP+2qjvci7n4/a9f7DhKESLWb2/uG4xQh3rTkGTBUz69bI4IivCoKkTFAqjXxYDZw2K/npohjsw==",
+      "sha512": "Uba85tzCHFpH4ZU0poLuiYNOg7XiTardvHlnJgVAH4tcPg2jE3LXtcR/Gk1Sngu8aFwJ89LccvYT2idW+x7FUg==",
       "type": "package",
       "path": "remotion.linq/2.1.1",
       "files": [
@@ -9890,7 +9890,7 @@
       ]
     },
     "System.Net.Security/4.3.0": {
-      "sha512": "IgJKNfALqw7JRWp5LMQ5SWHNKvXVz094U6wNE3c1i8bOkMQvgBL+MMQuNt3xl9Qg9iWpj3lFxPZEY6XHmROjMQ==",
+      "sha512": "9j7u2+n+zkcn4o/v+XXMSVHXsNfidZTR0G1vZpXw6B5YZXMwdMN17ASSFN7riExkeH64/4POwOR0lyhrIRg4sw==",
       "type": "package",
       "path": "system.net.security/4.3.0",
       "files": [
@@ -12599,11 +12599,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jonsi\\Desktop\\2017HaustSkoli\\WEPO\\CoursesApi\\Api\\Api.csproj",
+      "projectUniqueName": "C:\\Users\\jonsi\\Desktop\\haskoli\\2017HaustSkoli\\WEPO\\CoursesApi\\Api\\Api.csproj",
       "projectName": "Api",
-      "projectPath": "C:\\Users\\jonsi\\Desktop\\2017HaustSkoli\\WEPO\\CoursesApi\\Api\\Api.csproj",
+      "projectPath": "C:\\Users\\jonsi\\Desktop\\haskoli\\2017HaustSkoli\\WEPO\\CoursesApi\\Api\\Api.csproj",
       "packagesPath": "C:\\Users\\jonsi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jonsi\\Desktop\\2017HaustSkoli\\WEPO\\CoursesApi\\Api\\obj\\",
+      "outputPath": "C:\\Users\\jonsi\\Desktop\\haskoli\\2017HaustSkoli\\WEPO\\CoursesApi\\Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12622,14 +12622,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\jonsi\\Desktop\\2017HaustSkoli\\WEPO\\CoursesApi\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\jonsi\\Desktop\\2017HaustSkoli\\WEPO\\CoursesApi\\Models\\Models.csproj"
+            "C:\\Users\\jonsi\\Desktop\\haskoli\\2017HaustSkoli\\WEPO\\CoursesApi\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\jonsi\\Desktop\\haskoli\\2017HaustSkoli\\WEPO\\CoursesApi\\Models\\Models.csproj"
             },
-            "C:\\Users\\jonsi\\Desktop\\2017HaustSkoli\\WEPO\\CoursesApi\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\jonsi\\Desktop\\2017HaustSkoli\\WEPO\\CoursesApi\\Services\\Services.csproj"
+            "C:\\Users\\jonsi\\Desktop\\haskoli\\2017HaustSkoli\\WEPO\\CoursesApi\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\jonsi\\Desktop\\haskoli\\2017HaustSkoli\\WEPO\\CoursesApi\\Services\\Services.csproj"
             },
-            "C:\\Users\\jonsi\\Desktop\\2017HaustSkoli\\WEPO\\CoursesApi\\Repositories\\Repositories.csproj": {
-              "projectPath": "C:\\Users\\jonsi\\Desktop\\2017HaustSkoli\\WEPO\\CoursesApi\\Repositories\\Repositories.csproj"
+            "C:\\Users\\jonsi\\Desktop\\haskoli\\2017HaustSkoli\\WEPO\\CoursesApi\\Repositories\\Repositories.csproj": {
+              "projectPath": "C:\\Users\\jonsi\\Desktop\\haskoli\\2017HaustSkoli\\WEPO\\CoursesApi\\Repositories\\Repositories.csproj"
             }
           }
         }

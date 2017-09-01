@@ -1,3 +1,5 @@
+using System;
+
 namespace CoursesApi.Models.EntityModels
 {
     public class CourseNStudent
@@ -6,5 +8,7 @@ namespace CoursesApi.Models.EntityModels
         public int StudentId { get; set; }
         public string CourseName { get; set; }
         public int Semester { get; set; }
+        public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
     }
 }
